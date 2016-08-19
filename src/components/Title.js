@@ -9,7 +9,7 @@ renderTitle() {
   render() {
     return (
       <div className="col-md-offset-3">
-        <h3>{this.props.title}</h3>
+        <a href={this.props.url}><h2>{this.props.title}</h2></a>
       </div>
     );
   }

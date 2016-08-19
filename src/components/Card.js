@@ -19,7 +19,7 @@ class Card extends Component {
       <div className="col-md-12">
       <div className="panel panel-default">
         <div className="panel-heading">
-          <Title title={this.props.resource.title}/>
+          <Title title={this.props.resource.title} url={this.props.resource.url}/>
           <Image image_url={this.props.resource.image_url}/>
         </div>
 

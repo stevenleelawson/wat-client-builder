@@ -6,7 +6,7 @@ class Description extends Component {
   render() {
     return (
       <div className="col-md-offset-3">
-        <p>{this.props.description}</p>
+        <h3>{this.props.description}</h3>
       </div>
     );
   }
