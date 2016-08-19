@@ -9,7 +9,9 @@ class Sidebar extends Component {
             <i className="fa fa-user fa-5x ello" aria-hidden="true"></i>
             <h1 className="ello">ELLO,</h1>
             <h1 className="ello">You Tool!!<i class="fa fa-wrench"            aria-hidden="true"></i></h1>
+     <a href="http://watserver.herokuapp.com/auth/github"><button>GitHub SignIn</button></a>
           </div>
+
         </div>
   
     );
