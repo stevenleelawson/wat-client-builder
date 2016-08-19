@@ -60,6 +60,62 @@ const resources = [
   is_free: true,
   categoryId: 1,
   name: "javascript"
+},
+  {
+  resourceId: 5,
+  category_id: 1,
+  type_id: 3,
+  person_id: 1,
+  title: "Tutorial Horizon",
+  image_url: "https://facebook.github.io/react/img/logo.svg",
+  url: "https://javascript.tutorialhorizon.com",
+  votes: 10,
+  description: "A really good site covering React theory; lots of good diagrams",
+  is_free: true,
+  categoryId: 1,
+  name: "javascript"
+},
+  {
+  resourceId: 5,
+  category_id: 1,
+  type_id: 3,
+  person_id: 1,
+  title: "Khan Academy",
+  image_url: "https://lh6.googleusercontent.com/-Sxo3Mp6e4Bg/AAAAAAAAAAI/AAAAAAAAH_Q/7O5GcEZZ-mE/s0-c-k-no-ns/photo.jpg",
+  url: "https://www.khanacademy.org/",
+  votes: 2,
+  description: "Learn for free about math, art, computer programming, economics, physics, chemistry, biology, medicine, finance, history, and more.",
+  is_free: true,
+  categoryId: 1,
+  name: "javascript"
+},
+  {
+  resourceId: 5,
+  category_id: 1,
+  type_id: 3,
+  person_id: 1,
+  title: "Nodeschool.io",
+  image_url: "http://nodeschool.io/stavanger/graphics/stavanger-nodeschool-logo.png",
+  url: "https://nodeschool.io/",
+  votes: 6,
+  description: "Choose-your-own-adventure style lessons and learn how to use node.js, npm and other related tools by writing code to solve realistic problems.",
+  is_free: true,
+  categoryId: 1,
+  name: "javascript"
+},
+  {
+  resourceId: 5,
+  category_id: 1,
+  type_id: 3,
+  person_id: 1,
+  title: "MDN",
+  image_url: "https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png",
+  url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  votes: 10,
+  description: "This section of the site is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments.",
+  is_free: true,
+  categoryId: 1,
+  name: "javascript"
 }
 
 ];
@@ -80,12 +136,12 @@ class App extends Component {
       <nav className="navbar navbar-default">
     <div className="container-fluid">
       <div className="navbar-header">
-        <a className="navbar-brand" href="/"><img className="logo" src="../images/updatedlogo.png" alt="logo"  /></a>
+        <a className="navbar-brand" href="/"><img className="logo" src="../build/images/updatedlogo.png" alt="logo"  /></a>
       </div>
 
       <div className="collapse navbar-collapse headline" id="bs-example-navbar-collapse-1">
-        <h1 className="textStuff">W.A.T. <span>WE ARE TOOLS</span></h1>
-        <h2><em>-Tools for learning web development</em></h2>
+        <h1>W.A.T. <span><h3>WE ARE TOOLS</h3></span></h1>
+        <h2><em>Tools for learning web development</em></h2>
       </div>
     </div>
   </nav>
